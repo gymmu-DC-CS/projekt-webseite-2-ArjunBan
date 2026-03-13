@@ -1,0 +1,66 @@
+/* Basic styling for the AI Explorer website */
+
+/* Body styling with dark AI-inspired background */
+body {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%); /* Dark gradient background */
+    color: #ffffff; /* White text for contrast */
+    font-family: 'Arial', sans-serif; /* Clean, modern font */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    min-height: 100vh; /* Ensure full height */
+}
+
+/* Basic navigation styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent dark background */
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: #00d4ff; /* Neon blue for links */
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: #9d4edd; /* Purple highlight on hover */
+}
+
+/* Main content styling */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    color: #00d4ff; /* Neon blue for headings */
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Footer styling */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 20px;
+    color: #cccccc;
+}

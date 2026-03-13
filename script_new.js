@@ -1,5 +1,5 @@
 // ================================
-// 1. FILTER BUTTONS — Tools Section
+// 1. FILTER BUTTONS â€” Tools Section
 // ================================
 const filterBtns = document.querySelectorAll('.filter');
 const toolCards = document.querySelectorAll('.tool-card');
@@ -26,13 +26,13 @@ filterBtns.forEach(btn => {
 });
 
 // ================================
-// 2. COPY PROMPT BUTTONS — Tips Section
+// 2. COPY PROMPT BUTTONS â€” Tips Section
 // ================================
 function copyText(btn) {
   const promptText = btn.previousElementSibling.textContent;
 
   navigator.clipboard.writeText(promptText).then(() => {
-    btn.textContent = '? Copied!';
+    btn.textContent = 'âœ… Copied!';
     btn.classList.add('copied');
 
     setTimeout(() => {
