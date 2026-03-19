@@ -1,0 +1,30 @@
+/* ============================
+   VARIABLES & RESET
+============================ */
+:root {
+  --bg: #060612;
+  --surface: #0e0e20;
+  --card: #13132a;
+  --accent: #00f0ff;
+  --accent2: #ff3cac;
+  --text: #e8e8f0;
+  --muted: #888899;
+  --border: #1e1e3a;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: 'Syne', sans-serif;
+}
+
+a { text-decoration: none; }
