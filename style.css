@@ -172,3 +172,24 @@ nav ul a:hover { color: var(--accent); }
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(-20px); }
 }
+/* ============================
+   SECTION SHARED STYLES
+============================ */
+section {
+  padding: 100px 60px;
+}
+
+section h2 {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -1px;
+  margin-bottom: 14px;
+}
+
+.section-sub {
+  color: var(--muted);
+  margin-bottom: 50px;
+  font-size: 1rem;
+}
+
