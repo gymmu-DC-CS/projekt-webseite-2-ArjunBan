@@ -379,3 +379,13 @@ section h2 {
   color: #fff;
   border-color: #00c97a;
 }
+/* ============================
+   FOOTER
+============================ */
+footer {
+  text-align: center;
+  padding: 40px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  border-top: 1px solid var(--border);
+}
