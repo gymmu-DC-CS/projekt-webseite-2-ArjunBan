@@ -171,6 +171,10 @@ nav ul a:hover { color: var(--accent); }
   animation-delay: -4s;
 }
 
+.hero-graphic .orb {
+  z-index: 1;
+}
+
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(-20px); }
@@ -301,6 +305,11 @@ section h2 {
   font-size: 1.1rem;
   color: #fff;
   margin-bottom: 8px;
+}
+
+.tools {
+  position: relative;
+  background: var(--surface);
 }
 
 .tool-card p {
